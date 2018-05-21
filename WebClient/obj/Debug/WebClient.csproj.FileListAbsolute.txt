@@ -1,0 +1,221 @@
+E:\WC\WebClient\WebClient\obj\Debug\WebClient.csprojResolveAssemblyReference.cache
+E:\WC\WebClient\WebClient\obj\Debug\WebClient.csproj.CoreCompileInputs.cache
+E:\WC\WebClient\WebClient\bin\ApplicationInsights.config
+E:\WC\WebClient\WebClient\bin\WebClient.dll.config
+E:\WC\WebClient\WebClient\bin\WebClient.dll
+E:\WC\WebClient\WebClient\bin\WebClient.pdb
+E:\WC\WebClient\WebClient\bin\Antlr3.Runtime.dll
+E:\WC\WebClient\WebClient\bin\AspNet.ScriptManager.bootstrap.dll
+E:\WC\WebClient\WebClient\bin\AspNet.ScriptManager.jQuery.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.Agent.Intercept.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.DependencyCollector.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.Web.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.WindowsServer.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.ApplicationInsights.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.ScriptManager.WebForms.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.Web.Infrastructure.dll
+E:\WC\WebClient\WebClient\bin\Newtonsoft.Json.dll
+E:\WC\WebClient\WebClient\bin\System.Web.Optimization.dll
+E:\WC\WebClient\WebClient\bin\WebGrease.dll
+E:\WC\WebClient\WebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\WC\WebClient\WebClient\bin\System.Web.Optimization.xml
+E:\WC\WebClient\WebClient\bin\Antlr3.Runtime.pdb
+E:\WC\WebClient\WebClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+E:\WC\WebClient\WebClient\bin\Newtonsoft.Json.xml
+E:\WC\WebClient\WebClient\bin\Microsoft.ApplicationInsights.xml
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.DependencyCollector.xml
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.WindowsServer.xml
+E:\WC\WebClient\WebClient\bin\Microsoft.AI.Web.xml
+E:\WC\WebClient\WebClient\bin\ru\System.Web.Optimization.resources.dll
+E:\WC\WebClient\WebClient\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+E:\WC\WebClient\WebClient\obj\Debug\WebClient.dll
+E:\WC\WebClient\WebClient\obj\Debug\WebClient.pdb
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ApplicationInsights.config
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\WebClient.dll.config
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\WebClient.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\WebClient.pdb
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Antlr3.Runtime.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\AspNet.ScriptManager.bootstrap.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\AspNet.ScriptManager.jQuery.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.DependencyCollector.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.Web.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.WindowsServer.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ApplicationInsights.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Edm.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.OData.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Services.Client.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ScriptManager.WebForms.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Web.Infrastructure.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Diagnostics.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Storage.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Newtonsoft.Json.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\System.Spatial.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\System.Web.Optimization.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\WebGrease.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\MonAgentListener.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Edm.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.OData.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Services.Client.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Storage.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Newtonsoft.Json.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\System.Spatial.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\System.Web.Optimization.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Antlr3.Runtime.pdb
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ApplicationInsights.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.DependencyCollector.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.WindowsServer.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.Web.xml
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\de\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\es\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\it\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\de\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\es\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\fr\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\it\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ja\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ko\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\de\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\es\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\fr\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\it\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ja\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ko\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ru\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\System.Spatial.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ru\System.Web.Optimization.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.csproj.CoreCompileInputs.cache
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.csproj.CopyComplete
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.dll
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.pdb
+D:\Education\University\ВКР\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.csprojAssemblyReference.cache
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ApplicationInsights.config
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\WebClient.dll.config
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\WebClient.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\WebClient.pdb
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Antlr3.Runtime.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\AspNet.ScriptManager.bootstrap.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\AspNet.ScriptManager.jQuery.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.Agent.Intercept.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.DependencyCollector.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.Web.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.WindowsServer.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ApplicationInsights.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AspNet.FriendlyUrls.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Edm.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.OData.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Services.Client.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ScriptManager.MSAjax.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ScriptManager.WebForms.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Web.Infrastructure.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Diagnostics.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Storage.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Newtonsoft.Json.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\System.Spatial.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\System.Web.Optimization.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\WebGrease.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\MonAgentListener.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Edm.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.OData.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.Data.Services.Client.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.WindowsAzure.Storage.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Newtonsoft.Json.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\System.Spatial.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\System.Web.Optimization.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Antlr3.Runtime.pdb
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AspNet.FriendlyUrls.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.ApplicationInsights.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.DependencyCollector.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.WindowsServer.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\Microsoft.AI.Web.xml
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\de\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\es\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\fr\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\it\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ja\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ko\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\de\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\es\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\fr\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\it\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ja\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ko\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\de\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\es\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\fr\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\it\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ja\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ko\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\de\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\es\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\fr\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\it\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ja\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ko\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ru\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hans\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\zh-Hant\System.Spatial.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ru\System.Web.Optimization.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\bin\ru\Microsoft.AspNet.FriendlyUrls.resources.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.csprojAssemblyReference.cache
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.csproj.CoreCompileInputs.cache
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.csproj.CopyComplete
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.dll
+D:\GQW\Graduate Qualifying Work\WebClient\WebClient\obj\Debug\WebClient.pdb

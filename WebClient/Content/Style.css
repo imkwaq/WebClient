@@ -1,0 +1,39 @@
+﻿.component-label {    
+    text-align: center;
+}
+
+.flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.center-block {
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .fs-h2-default {
+        font-size: 16px;
+    }
+    .fs-p-default {
+        font-size: 14px;
+    }
+    .fs-ol-default {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .red-flex-content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+}
+
+

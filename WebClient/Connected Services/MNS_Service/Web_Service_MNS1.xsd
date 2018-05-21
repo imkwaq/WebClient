@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:element name="OnCalc">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_r" nillable="true" type="q1:ArrayOfint" />
+        <xs:element xmlns:q2="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="z_r" nillable="true" type="q2:ArrayOffloat" />
+        <xs:element minOccurs="0" name="nr" type="xs:int" />
+        <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_c" nillable="true" type="q3:ArrayOfint" />
+        <xs:element xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="z_c" nillable="true" type="q4:ArrayOffloat" />
+        <xs:element minOccurs="0" name="nc" type="xs:int" />
+        <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_l" nillable="true" type="q5:ArrayOfint" />
+        <xs:element xmlns:q6="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="z_l" nillable="true" type="q6:ArrayOffloat" />
+        <xs:element minOccurs="0" name="nl" type="xs:int" />
+        <xs:element minOccurs="0" name="nv" type="xs:int" />
+        <xs:element minOccurs="0" name="lp" type="xs:int" />
+        <xs:element minOccurs="0" name="lm" type="xs:int" />
+        <xs:element minOccurs="0" name="kp" type="xs:int" />
+        <xs:element minOccurs="0" name="km" type="xs:int" />
+        <xs:element xmlns:q7="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="f" nillable="true" type="q7:ArrayOffloat" />
+        <xs:element minOccurs="0" name="nf" type="xs:int" />
+        <xs:element minOccurs="0" name="nju" type="xs:int" />
+        <xs:element xmlns:q8="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_ju" nillable="true" type="q8:ArrayOfint" />
+        <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Z_ju" nillable="true" type="q9:ArrayOffloat" />
+        <xs:element minOccurs="0" name="neu" type="xs:int" />
+        <xs:element xmlns:q10="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_eu" nillable="true" type="q10:ArrayOfint" />
+        <xs:element xmlns:q11="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Z_eu" nillable="true" type="q11:ArrayOffloat" />
+        <xs:element minOccurs="0" name="nji" type="xs:int" />
+        <xs:element xmlns:q12="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_ji" nillable="true" type="q12:ArrayOfint" />
+        <xs:element xmlns:q13="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Z_ji" nillable="true" type="q13:ArrayOffloat" />
+        <xs:element minOccurs="0" name="nou" type="xs:int" />
+        <xs:element xmlns:q14="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_ou" nillable="true" type="q14:ArrayOfint" />
+        <xs:element xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Z_ou" nillable="true" type="q15:ArrayOffloat" />
+        <xs:element minOccurs="0" name="ntri" type="xs:int" />
+        <xs:element xmlns:q16="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="In_tri" nillable="true" type="q16:ArrayOfint" />
+        <xs:element xmlns:q17="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="z_tri" nillable="true" type="q17:ArrayOffloat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="OnCalcResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="OnCalcResult" nillable="true" type="q18:ArrayOffloat" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

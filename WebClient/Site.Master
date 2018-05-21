@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebClient.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="ru">
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %></title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+
+    <webopt:bundlereference runat="server" path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--Подробности об объединении скриптов в ScriptManager см. на странице https://go.microsoft.com/fwlink/?LinkID=301884. --%>
+                <%--Сценарии .NET Framework--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Сценарии сайта--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">MNS</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Описание
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="Size">Ввод с клавиатуры</a></li>
+                              <li><a href="FILE_READ">Ввод из файла</a></li>
+                              <li><a href="FILE_WRITE">Запись в файл</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Директивы расчета
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a href="F">Вид частотной характеристики</a></li>
+                              <li><a href="IO">Входные и выходные узлы</a></li>
+                            </ul>
+                        </li>
+                        <li><a runat="server" href="CALC">Расчет</a></li>
+                        <li><a runat="server" href="RED">Редактирование</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container body-content">
+            <%--<asp:Menu ID="Menu1" runat="server">
+                            <Items>
+                                <asp:MenuItem Text="Описание" NavigateUrl="~/">
+                                    <asp:MenuItem Text="Ввод с клавиатуры" NavigateUrl="~/Size"></asp:MenuItem>
+                                    <asp:MenuItem Text="Ввод из файла" NavigateUrl="~/FILE_READ"></asp:MenuItem>
+                                    <asp:MenuItem Text="Запись в файл" NavigateUrl="~/FILE_WRITE"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Директивы расчета" NavigateUrl="~/">
+                                    <asp:MenuItem Text="Вид частотной характеристики" NavigateUrl="~/F"></asp:MenuItem>
+                                    <asp:MenuItem Text="Входные и выходные узлы" NavigateUrl="~/IO"></asp:MenuItem>
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Расчет" NavigateUrl="~/CALC">
+                                </asp:MenuItem>
+                            </Items>
+            </asp:Menu>--%>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">                
+            </asp:ContentPlaceHolder>
+            <footer class="modal-footer">
+                <p>&copy; <%: DateTime.Now.Year %> - Graduation Qualification Work</p>
+                <p>by Fedorov Mikhail CAD group 4302</p>
+            </footer>
+        </div>
+
+    </form>
+</body>
+</html>
