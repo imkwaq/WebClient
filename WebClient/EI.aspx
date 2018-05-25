@@ -4,12 +4,15 @@
     <div class="container">
         <div class="row">
             <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+                <asp:Label ID="warning" runat="server" CssClass="alert alert-warning component-label help-block"></asp:Label>
+            </div>
+            <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                 <div class="panel panel-default">
                     <div class="panel-body">
                         <div class="form-group flex-content">
                             <%--<div class="container flex-content">--%>
                                 <div class="row col-md-12">
-                                    <label class="col-md-6 component-label">ИНУН</label>
+                                    <label class="col-md-6 component-label">ИНУТ</label>
                                     <asp:TextBox ID="m_nextei" runat="server" ReadOnly="True" AutoCompleteType="Disabled" CssClass="form-control col-md-6">1</asp:TextBox>
                                 </div>
                             <%--</div>--%>

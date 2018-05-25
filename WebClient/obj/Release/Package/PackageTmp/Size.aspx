@@ -6,6 +6,9 @@
     <div class="container">
         <div class="row">
             <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+                <asp:Label ID="warning" runat="server" CssClass="alert alert-warning component-label help-block"></asp:Label>
+            </div>
+            <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-primary">
                         <div class="panel-heading">
@@ -112,7 +115,7 @@
                             <%--<div class="container flex-content">--%>
                             <div class="row col-md-12">
                                 <label class="col-md-8 col-lg-6 component-label">ИТУН</label>
-                                <asp:TextBox ID="m_nei" runat="server" ReadOnly="True" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
+                                <asp:TextBox ID="m_nei" runat="server" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
                                 <%--  </div>--%>
                             </div>
                         </div>
@@ -120,7 +123,7 @@
                             <%--<div class="container flex-content">--%>
                             <div class="row col-md-12">
                                 <label class="col-md-8 col-lg-6 component-label">Б/п транзисторы</label>
-                                <asp:TextBox ID="m_ntb" runat="server" ReadOnly="True" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6">1</asp:TextBox>
+                                <asp:TextBox ID="m_ntb" runat="server" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6">1</asp:TextBox>
                             </div>
                             <%--</div>--%>
                         </div>
@@ -128,7 +131,7 @@
                             <%--<div class="container flex-content">--%>
                             <div class="row col-md-12">
                                 <label class="col-md-8 col-lg-6 component-label">У/п транзисторы</label>
-                                <asp:TextBox ID="m_ntu" runat="server" ReadOnly="True" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
+                                <asp:TextBox ID="m_ntu" runat="server" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
                             </div>
                             <%--</div>--%>
                         </div>
@@ -144,7 +147,7 @@
                             <%--<div class="container flex-content">--%>
                             <div class="row col-md-12">
                                 <label class="col-md-8 col-lg-6 component-label">Трансформаторы</label>
-                                <asp:TextBox ID="m_ntr" runat="server" ReadOnly="True" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
+                                <asp:TextBox ID="m_ntr" runat="server" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
                                 <%--  </div>--%>
                             </div>
                         </div>
@@ -152,7 +155,7 @@
                             <%--<div class="container flex-content">--%>
                             <div class="row col-md-12">
                                 <label class="col-md-8 col-lg-6 component-label">Ид. оп. усилители</label>
-                                <asp:TextBox ID="m_noui" runat="server" ReadOnly="True" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
+                                <asp:TextBox ID="m_noui" runat="server" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
                                 <%--</div>--%>
                             </div>
                         </div>

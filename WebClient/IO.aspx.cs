@@ -17,15 +17,28 @@ namespace WebClient
                 m_lm.Text = "0";
                 m_kp.Text = "0";
                 m_km.Text = "0";
+                warning.Visible = false;
             }
         }
         protected void OK_Click(object sender, EventArgs e)
         {
-            GV.lp = Int32.Parse(m_lp.Text);
-            GV.lm = Int32.Parse(m_lm.Text);
-            GV.kp = Int32.Parse(m_kp.Text);
-            GV.km = Int32.Parse(m_km.Text);
-            Response.Redirect("Default.aspx");
+            warning.Visible = false;
+            if (int.Parse(m_lp.Text) > GV.nv || int.Parse(m_lm.Text) > GV.nv || //если хоть один из узлов больше введенного общего числа узлов
+                int.Parse(m_kp.Text) > GV.nv || int.Parse(m_km.Text) > GV.nv ||
+                int.Parse(m_kp.Text) == int.Parse(m_lp.Text))// || //или входной n+ равен выходному n+)
+            {
+                warning.Visible = true;
+                warning.Text = "Некорректные значения узлов";
+            }
+            else
+            {
+                GV.lp = Int32.Parse(m_lp.Text);
+                GV.lm = Int32.Parse(m_lm.Text);
+                GV.kp = Int32.Parse(m_kp.Text);
+                GV.km = Int32.Parse(m_km.Text);
+                Response.Redirect("Default.aspx");
+            }
+            
         }
     }
 }

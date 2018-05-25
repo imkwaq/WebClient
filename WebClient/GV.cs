@@ -85,7 +85,19 @@ namespace WebClient
         {
             //
             // TODO: Add constructor logic here
-            //
+            //            
         }
+
+        //public static void GV_Clear()
+        //{
+        //    nv = nr = nc = nl = nju = nji = neu = nei = ntb = ntu = ntr = nou = noui = ntri = nf = lp = lm = kp = km = k = m_f = n = 0;
+        //    in_r = in_c = in_l = in_ju = in_ji = in_eu = in_ei = in_oui = in_tri = in_tr = in_tb = in_tu = in_ou = new int[0, 0];
+        //    z_r = z_c = z_l = z_tri = new float[0];
+        //    z_ju = z_ji = z_eu = z_ei = z_tr = z_tb = z_tu = z_ou = new float[0, 0];
+        //    f = kum = kua = rim = ria = rom = roa = new float[0];
+        //    filename = "";
+        //    In_r = In_c = In_l = In_ju = In_eu = In_ji = In_ou = In_ei = In_oui = In_tri = new int[0];
+        //    Z_ju = Z_ei = Z_eu = Z_ou = Z_ji = Out = new float[0];
+        //}
     }
 }

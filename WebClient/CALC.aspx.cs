@@ -5,7 +5,8 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-using WebClient.MNS_Service1;
+//using WebClient.MNS_Service;
+using WebClient.Service;
 
 
 //using WebClient.Web_Service_MNS;
@@ -111,13 +112,25 @@ namespace WebClient
                 GV.Z_ou[GV.nou * 3 + i] = GV.z_ou[i, 3];
             }
             #endregion
+            warning.Visible = false;
+            try
+            {
+                Web_Service_MNSClient client = new Web_Service_MNSClient();
+                GV.Out = client.OnCalc(GV.In_r, GV.z_r, GV.nr, GV.In_c, GV.z_c, GV.nc, GV.In_l, GV.z_l, GV.nl, GV.nv, GV.lp, GV.lm, GV.kp, GV.km, GV.f, GV.nf, GV.nju, GV.In_ju, GV.Z_ju, GV.neu, GV.In_eu, GV.Z_eu, GV.nji, GV.In_ji, GV.Z_ji, GV.nou, GV.In_ou, GV.Z_ou, GV.ntri, GV.In_tri, GV.z_tri);
+                client.Close();
+            }
+            catch(ArgumentNullException)
+            {
+                warning.Visible = true;
+                warning.Text = "Проверьте правильность введенных данных";
+            }
+            catch (System.ServiceModel.EndpointNotFoundException)
+            {
+                warning.Visible = true;
+                warning.Text = "Возможно сервер отключен или неправильно настроена ссылка, попробуйте попытку позже";
+            }
 
-                        
-            Web_Service_MNSClient client = new Web_Service_MNSClient();
-            GV.Out = client.OnCalc(GV.In_r, GV.z_r, GV.nr, GV.In_c, GV.z_c, GV.nc, GV.In_l, GV.z_l, GV.nl, GV.nv, GV.lp, GV.lm, GV.kp, GV.km, GV.f, GV.nf, GV.nju, GV.In_ju, GV.Z_ju, GV.neu, GV.In_eu, GV.Z_eu, GV.nji, GV.In_ji, GV.Z_ji, GV.nou, GV.In_ou, GV.Z_ou, GV.ntri, GV.In_tri, GV.z_tri);
-
-            client.Close();
-                // , GV.neu, GV.In_eu, GV.z_eu
+            // , GV.neu, GV.In_eu, GV.z_eu
 
             for (int i = 1; i <= GV.MF; i++)
             {
@@ -170,11 +183,8 @@ namespace WebClient
                     TextBox1.Text = str;
                 }
             }
-#endregion
-        }
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-            TextBox1.Text = "";
+            #endregion
+            
         }
     }
 }

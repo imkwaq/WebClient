@@ -17,7 +17,8 @@ namespace WebClient
         }
         protected void ReadFile_Click(object sender, EventArgs e)
         {
-            GV.filename = Server.MapPath("~/DATA/") + TextBox1.Text + ".txt";
+            //GV.filename = Server.MapPath("~/DATA/") + TextBox1.Text + ".txt";
+            GV.filename = Server.MapPath("~/Tests/") + TextBox1.Text + ".txt";
             StreamReader fin;
             fin = new StreamReader(GV.filename);
             //fin = new StreamReader("D:\\File\\test.txt");

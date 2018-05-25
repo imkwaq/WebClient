@@ -6,6 +6,9 @@
     <div class="container">
         <div class="row">
             <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+                <asp:Label ID="warning" runat="server" CssClass="alert alert-warning component-label help-block"></asp:Label>
+            </div>
+            <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                 <div class="panel-group" id="accordion">
                     <div class="panel panel-primary">
                         <div class="panel-heading">

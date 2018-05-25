@@ -2,6 +2,11 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br />
+    <div class="flex-content">
+        <div class="col-md-6">
+            <asp:Label ID="warning" runat="server" CssClass="alert alert-warning component-label help-block"></asp:Label>
+        </div>
+    </div>
     <div class="container flex-content">
         <div class="panel panel-default col-md-6">
             <div class="panel-body">
@@ -56,5 +61,5 @@
             </div>
         </div>
     </div>
-    
+
 </asp:Content>

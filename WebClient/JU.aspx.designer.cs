@@ -13,6 +13,15 @@ namespace WebClient {
     public partial class JU {
         
         /// <summary>
+        /// warning элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label warning;
+        
+        /// <summary>
         /// m_nextju элемент управления.
         /// </summary>
         /// <remarks>

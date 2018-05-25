@@ -2,42 +2,11 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br />
-    <%--flex-content--%>
-    <%--<div class="container flex-content">
-        <div class="panel panel-default col-md-6">
-            <div class="panel-body">
-                <div class="form-group row">
-                    <label class="col-sm-4 component-label">Конденсатор C</label>
-                    <div class="col-sm-8">
-                        <asp:TextBox ID="m_nextc" runat="server" ReadOnly="True" CssClass="form-control">1</asp:TextBox>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-sm-4 component-label">n+</label>
-                    <div class="col-sm-8">
-                        <asp:TextBox ID="m_npc" runat="server" AutoCompleteType="Disabled" CssClass="form-control"></asp:TextBox>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-sm-4 component-label">n-</label>
-                    <div class="col-sm-8">
-                        <asp:TextBox ID="m_nmc" runat="server" AutoCompleteType="Disabled" CssClass="form-control"></asp:TextBox>
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-sm-4 component-label">Емкость (мкФ)</label>
-                    <div class="col-sm-8">
-                        <asp:TextBox ID="m_zc" runat="server" AutoCompleteType="Disabled" CssClass="form-control"></asp:TextBox>
-                    </div>
-                </div>
-                <div class="flex-content">
-                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Следующий" CssClass="btn btn-info" />
-                </div>
-            </div>
-        </div>
-    </div>--%>
     <div class="container">
         <div class="row">
+            <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
+                <asp:Label ID="warning" runat="server" CssClass="alert alert-warning component-label help-block"></asp:Label>
+            </div>
             <div class="container col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4 col-sm-4 col-sm-offset-4">
                 <div class="panel panel-default">
                     <div class="panel-body">

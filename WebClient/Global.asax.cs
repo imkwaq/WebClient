@@ -16,6 +16,7 @@ namespace WebClient
             // Код, выполняемый при запуске приложения
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-        }
+        }   
+        
     }
 }

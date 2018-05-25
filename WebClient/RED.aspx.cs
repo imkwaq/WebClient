@@ -661,455 +661,479 @@ namespace WebClient
         protected void Out_Click(object sender, EventArgs e)
         {
             warning.Visible = false;
-            k = Int32.Parse(m_n.Text);
-            switch (m)
+            try
+            { 
+                k = Int32.Parse(m_n.Text);
+                switch (m)
+                {
+                    case 0:
+                        if (k <= GV.nr)
+                        {
+                            m_np2.Text = GV.in_r[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm2.Text = GV.in_r[k, 1].ToString();  //элементами массива включений
+                            m_z1.Text = GV.z_r[k].ToString();    //и вектора значений параметра
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 1:
+                        if (k <= GV.nc)
+                        {
+                            m_np2.Text = GV.in_c[k, 0].ToString();//заполнение элементов TextBox 
+                            m_nm2.Text = GV.in_c[k, 1].ToString();  //элементами массива включений
+                            m_z1.Text = GV.z_c[k].ToString();    //и вектора значений параметра
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 2:
+                        if (k <= GV.nl)
+                        {
+                            m_np2.Text = GV.in_l[k, 0].ToString();//заполнение элементов TextBox 
+                            m_nm2.Text = GV.in_l[k, 1].ToString();  //элементами массива включений
+                            m_z1.Text = GV.z_l[k].ToString();    //и вектора значений параметра
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 3:
+                        if (k <= GV.nju)
+                        {
+                            m_np1.Text = GV.in_ju[k, 0].ToString();//заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_ju[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_ju[k, 2].ToString();
+                            m_nm2.Text = GV.in_ju[k, 3].ToString();
+                            m_z1.Text = GV.z_ju[k, 1].ToString();    //и массива значений параметров
+                            m_z2.Text = GV.z_ju[k, 2].ToString();
+                            m_z3.Text = GV.z_ju[k, 0].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента�");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 4:
+                        if (k <= GV.neu)
+                        {
+                            m_np1.Text = GV.in_eu[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_eu[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_eu[k, 2].ToString();
+                            m_nm2.Text = GV.in_eu[k, 3].ToString();
+                            m_z1.Text = GV.z_eu[k, 1].ToString();    //и вектора значений параметра
+                            m_z2.Text = GV.z_eu[k, 2].ToString();
+                            m_z3.Text = GV.z_eu[k, 0].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            k = 0;
+                        }                    
+                        break;
+                    case 5:
+                        if (k <= GV.nji)
+                        {
+                            m_np1.Text = GV.in_ji[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_ji[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_ji[k, 2].ToString();
+                            m_nm2.Text = GV.in_ji[k, 3].ToString();
+                            m_z1.Text = GV.z_ji[k, 1].ToString();    //и вектора значений параметра
+                            m_z2.Text = GV.z_ji[k, 2].ToString();
+                            m_z3.Text = GV.z_ji[k, 0].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 6:
+                        if (k <= GV.nei)
+                        {
+                            m_np1.Text = GV.in_ei[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_ei[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_ei[k, 2].ToString();
+                            m_nm2.Text = GV.in_ei[k, 3].ToString();
+                            m_z1.Text = GV.z_ei[k, 1].ToString();    //и вектора значений параметра
+                            m_z2.Text = GV.z_ei[k, 2].ToString();
+                            m_z3.Text = GV.z_ei[k, 0].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 7:
+                        if (k <= GV.ntb)
+                        {
+                            m_np1.Text = GV.in_tb[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_tb[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_tb[k, 2].ToString();
+                            m_z1.Text = GV.z_tb[k, 0].ToString();    //и вектора значений параметра
+                            m_z2.Text = GV.z_tb[k, 1].ToString();
+                            m_z3.Text = GV.z_tb[k, 2].ToString();
+                            m_z4.Text = GV.z_tb[k, 3].ToString();
+                            m_z5.Text = GV.z_tb[k, 4].ToString();
+                            m_z6.Text = GV.z_tb[k, 5].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            m_z4.Text = "0";
+                            m_z5.Text = "0";
+                            m_z6.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 8:
+                        if (k <= GV.ntu)
+                        {
+                            m_np1.Text = GV.in_tu[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_tu[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_tu[k, 2].ToString();
+                            m_z1.Text = GV.z_tu[k, 0].ToString();    //и вектора значений параметра
+                            m_z2.Text = GV.z_tu[k, 1].ToString();
+                            m_z3.Text = GV.z_tu[k, 2].ToString();
+                            m_z4.Text = GV.z_tu[k, 3].ToString();
+                            m_z5.Text = GV.z_tu[k, 4].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            m_z4.Text = "0";
+                            m_z5.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 9:
+                        if (k <= GV.nou)
+                        {
+                            m_np1.Text = GV.in_ou[k, 1].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_ou[k, 2].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_ou[k, 3].ToString();
+                            m_nm2.Text = GV.in_ou[k, 4].ToString();
+                            m_z1.Text = GV.z_ou[k, 0].ToString();    //и вектора значений параметра
+                            m_z2.Text = GV.z_ou[k, 1].ToString();
+                            m_z3.Text = GV.z_ou[k, 2].ToString();
+                            m_z4.Text = GV.z_ou[k, 3].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            m_z4.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 10:
+                        if (k <= GV.ntr)
+                        {
+                            m_np1.Text = GV.in_tr[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_tr[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_tr[k, 2].ToString();
+                            m_nm2.Text = GV.in_tr[k, 3].ToString();
+                            m_z1.Text = GV.z_tr[k, 0].ToString();    //и вектора значений параметра
+                            m_z2.Text = GV.z_tr[k, 1].ToString();
+                            m_z3.Text = GV.z_tr[k, 2].ToString();
+                            m_z4.Text = GV.z_tr[k, 3].ToString();
+                            m_z5.Text = GV.z_tr[k, 4].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            m_z2.Text = "0";
+                            m_z3.Text = "0";
+                            m_z4.Text = "0";
+                            m_z5.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 11:
+                        if (k <= GV.noui)
+                        {
+                            m_np1.Text = GV.in_oui[k, 1].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_oui[k, 2].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_oui[k, 3].ToString();
+                            m_nm2.Text = GV.in_oui[k, 4].ToString();
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                    case 12:
+                        if (k <= GV.ntri)
+                        {
+                            m_np1.Text = GV.in_tri[k, 0].ToString();  //заполнение элементов TextBox 
+                            m_nm1.Text = GV.in_tri[k, 1].ToString();  //элементами массива включений
+                            m_np2.Text = GV.in_tri[k, 2].ToString();
+                            m_nm2.Text = GV.in_tri[k, 3].ToString();
+                            m_z1.Text = GV.z_tri[k].ToString();    //и вектора значений параметра
+                        }
+                        else
+                        {
+                            //Response.Write("Ошибка в задании номера компонента");
+                            warning.Visible = true;
+                            warning.Text = "Ошибка в задании номера компонента";
+                            m_n.Text = "0";
+                            m_np1.Text = "0";
+                            m_nm1.Text = "0";
+                            m_np2.Text = "0";
+                            m_nm2.Text = "0";
+                            m_z1.Text = "0";
+                            k = 0;
+                        }
+                        break;
+                }
+            }
+            catch (NullReferenceException)
             {
-                case 0:
-                    if (k <= GV.nr)
-                    {
-                        m_np2.Text = GV.in_r[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm2.Text = GV.in_r[k, 1].ToString();  //элементами массива включений
-                        m_z1.Text = GV.z_r[k].ToString();    //и вектора значений параметра
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 1:
-                    if (k <= GV.nc)
-                    {
-                        m_np2.Text = GV.in_c[k, 0].ToString();//заполнение элементов TextBox 
-                        m_nm2.Text = GV.in_c[k, 1].ToString();  //элементами массива включений
-                        m_z1.Text = GV.z_c[k].ToString();    //и вектора значений параметра
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 2:
-                    if (k <= GV.nl)
-                    {
-                        m_np2.Text = GV.in_l[k, 0].ToString();//заполнение элементов TextBox 
-                        m_nm2.Text = GV.in_l[k, 1].ToString();  //элементами массива включений
-                        m_z1.Text = GV.z_l[k].ToString();    //и вектора значений параметра
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 3:
-                    if (k <= GV.nju)
-                    {
-                        m_np1.Text = GV.in_ju[k, 0].ToString();//заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_ju[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_ju[k, 2].ToString();
-                        m_nm2.Text = GV.in_ju[k, 3].ToString();
-                        m_z1.Text = GV.z_ju[k, 0].ToString();    //и массива значений параметров
-                        m_z2.Text = GV.z_ju[k, 1].ToString();
-                        m_z3.Text = GV.z_ju[k, 2].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента�");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 4:
-                    if (k <= GV.neu)
-                    {
-                        m_np1.Text = GV.in_eu[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_eu[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_eu[k, 2].ToString();
-                        m_nm2.Text = GV.in_eu[k, 3].ToString();
-                        m_z1.Text = GV.z_eu[k, 0].ToString();    //и вектора значений параметра
-                        m_z2.Text = GV.z_eu[k, 1].ToString();
-                        m_z3.Text = GV.z_eu[k, 2].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        k = 0;
-                    }                    
-                    break;
-                case 5:
-                    if (k <= GV.nji)
-                    {
-                        m_np1.Text = GV.in_ji[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_ji[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_ji[k, 2].ToString();
-                        m_nm2.Text = GV.in_ji[k, 3].ToString();
-                        m_z1.Text = GV.z_ji[k, 0].ToString();    //и вектора значений параметра
-                        m_z2.Text = GV.z_ji[k, 1].ToString();
-                        m_z3.Text = GV.z_ji[k, 2].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 6:
-                    if (k <= GV.nei)
-                    {
-                        m_np1.Text = GV.in_ei[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_ei[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_ei[k, 2].ToString();
-                        m_nm2.Text = GV.in_ei[k, 3].ToString();
-                        m_z1.Text = GV.z_ei[k, 0].ToString();    //и вектора значений параметра
-                        m_z2.Text = GV.z_ei[k, 1].ToString();
-                        m_z3.Text = GV.z_ei[k, 2].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 7:
-                    if (k <= GV.ntb)
-                    {
-                        m_np1.Text = GV.in_tb[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_tb[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_tb[k, 2].ToString();
-                        m_z1.Text = GV.z_tb[k, 0].ToString();    //и вектора значений параметра
-                        m_z2.Text = GV.z_tb[k, 1].ToString();
-                        m_z3.Text = GV.z_tb[k, 2].ToString();
-                        m_z4.Text = GV.z_tb[k, 3].ToString();
-                        m_z5.Text = GV.z_tb[k, 4].ToString();
-                        m_z6.Text = GV.z_tb[k, 5].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        m_z4.Text = "0";
-                        m_z5.Text = "0";
-                        m_z6.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 8:
-                    if (k <= GV.ntu)
-                    {
-                        m_np1.Text = GV.in_tu[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_tu[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_tu[k, 2].ToString();
-                        m_z1.Text = GV.z_tu[k, 0].ToString();    //и вектора значений параметра
-                        m_z2.Text = GV.z_tu[k, 1].ToString();
-                        m_z3.Text = GV.z_tu[k, 2].ToString();
-                        m_z4.Text = GV.z_tu[k, 3].ToString();
-                        m_z5.Text = GV.z_tu[k, 4].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        m_z4.Text = "0";
-                        m_z5.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 9:
-                    if (k <= GV.nou)
-                    {
-                        m_np1.Text = GV.in_ou[k, 1].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_ou[k, 2].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_ou[k, 3].ToString();
-                        m_nm2.Text = GV.in_ou[k, 4].ToString();
-                        m_z1.Text = GV.z_ou[k, 0].ToString();    //и вектора значений параметра
-                        m_z2.Text = GV.z_ou[k, 1].ToString();
-                        m_z3.Text = GV.z_ou[k, 2].ToString();
-                        m_z4.Text = GV.z_ou[k, 3].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        m_z4.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 10:
-                    if (k <= GV.ntr)
-                    {
-                        m_np1.Text = GV.in_tr[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_tr[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_tr[k, 2].ToString();
-                        m_nm2.Text = GV.in_tr[k, 3].ToString();
-                        m_z1.Text = GV.z_tr[k, 0].ToString();    //и вектора значений параметра
-                        m_z2.Text = GV.z_tr[k, 1].ToString();
-                        m_z3.Text = GV.z_tr[k, 2].ToString();
-                        m_z4.Text = GV.z_tr[k, 3].ToString();
-                        m_z5.Text = GV.z_tr[k, 4].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        m_z2.Text = "0";
-                        m_z3.Text = "0";
-                        m_z4.Text = "0";
-                        m_z5.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 11:
-                    if (k <= GV.noui)
-                    {
-                        m_np1.Text = GV.in_oui[k, 1].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_oui[k, 2].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_oui[k, 3].ToString();
-                        m_nm2.Text = GV.in_oui[k, 4].ToString();
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        k = 0;
-                    }
-                    break;
-                case 12:
-                    if (k <= GV.ntri)
-                    {
-                        m_np1.Text = GV.in_tri[k, 0].ToString();  //заполнение элементов TextBox 
-                        m_nm1.Text = GV.in_tri[k, 1].ToString();  //элементами массива включений
-                        m_np2.Text = GV.in_tri[k, 2].ToString();
-                        m_nm2.Text = GV.in_tri[k, 3].ToString();
-                        m_z1.Text = GV.z_tri[k].ToString();    //и вектора значений параметра
-                    }
-                    else
-                    {
-                        //Response.Write("Ошибка в задании номера компонента");
-                        warning.Visible = true;
-                        warning.Text = "Ошибка в задании номера компонента";
-                        m_n.Text = "0";
-                        m_np1.Text = "0";
-                        m_nm1.Text = "0";
-                        m_np2.Text = "0";
-                        m_nm2.Text = "0";
-                        m_z1.Text = "0";
-                        k = 0;
-                    }
-                    break;
+                warning.Visible = true;
+                warning.Text = "Объекта с этим номером не существует, повторите ввод";
+            }
+            catch (IndexOutOfRangeException)
+            {
+                warning.Visible = true;
+                warning.Text = "Проверьте, существует ли объект и повторите ввод";
             }
         }
         protected void In_Click(object sender, EventArgs e)
         {
             k = Int32.Parse(m_n.Text);
-
-            switch (m)
+            try
             {
-                case 0:
-                    GV.in_r[k, 0] = Int32.Parse(m_np2.Text);
-                    GV.in_r[k, 1] = Int32.Parse(m_nm2.Text);
-                    GV.z_r[k] = Single.Parse(m_z1.Text);
-                    break;
-                case 1:
-                    GV.in_c[k, 0] = Int32.Parse(m_np2.Text);
-                    GV.in_c[k, 1] = Int32.Parse(m_nm2.Text);
-                    GV.z_c[k] = Single.Parse(m_z1.Text);
-                    break;
-                case 2:
-                    GV.in_l[k, 0] = Int32.Parse(m_np2.Text);
-                    GV.in_l[k, 1] = Int32.Parse(m_nm2.Text);
-                    GV.z_l[k] = Single.Parse(m_z1.Text);
-                    break;
-                case 3:
-                    GV.in_ju[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_ju[k, 1] = int.Parse(m_nm1.Text);  //ИТУН
-                    GV.in_ju[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_ju[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_ju[k, 0] = float.Parse(m_z1.Text);  //заполнение массива значений параметров
-                    GV.z_ju[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_ju[k, 2] = float.Parse(m_z3.Text);
-                    break;
-                case 4:
-                    GV.in_eu[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_eu[k, 1] = int.Parse(m_nm1.Text);  //ИНУН
-                    GV.in_eu[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_eu[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_eu[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    GV.z_eu[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_eu[k, 2] = float.Parse(m_z3.Text);
-                    break;
-                case 5:
-                    GV.in_ji[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_ji[k, 1] = int.Parse(m_nm1.Text);  //ИТУТ
-                    GV.in_ji[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_ji[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_ji[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    GV.z_ji[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_ji[k, 2] = float.Parse(m_z3.Text);                    
-                    break;
-                case 6:
-                    GV.in_ei[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_ei[k, 1] = int.Parse(m_nm1.Text);  //ИНУТ
-                    GV.in_ei[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_ei[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_ei[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    GV.z_ei[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_ei[k, 2] = float.Parse(m_z3.Text);
-                    break;
-                case 7:
-                    GV.in_tb[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_tb[k, 1] = int.Parse(m_nm1.Text);  //б/п транзисторы
-                    GV.in_tb[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_tb[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_tb[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    GV.z_tb[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_tb[k, 2] = float.Parse(m_z3.Text);
-                    GV.z_tb[k, 3] = float.Parse(m_z4.Text);  //заполнение вектора значения параметра
-                    GV.z_tb[k, 4] = float.Parse(m_z5.Text);
-                    GV.z_tb[k, 5] = float.Parse(m_z6.Text);
-                    break;
-                case 8:
-                    GV.in_tu[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_tu[k, 1] = int.Parse(m_nm1.Text);  //у/п транзисторы
-                    GV.in_tu[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_tu[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_tu[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    GV.z_tu[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_tu[k, 2] = float.Parse(m_z3.Text);
-                    GV.z_tu[k, 3] = float.Parse(m_z4.Text);
-                    GV.z_tu[k, 4] = float.Parse(m_z5.Text);
-                    break;
-                case 9:
-                    GV.in_ou[k, 1] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_ou[k, 2] = int.Parse(m_nm1.Text);  //операционных усилителей
-                    GV.in_ou[k, 3] = int.Parse(m_np2.Text);
-                    GV.in_ou[k, 4] = int.Parse(m_nm2.Text);
-                    GV.z_ou[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    GV.z_ou[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_ou[k, 2] = float.Parse(m_z3.Text);
-                    GV.z_ou[k, 3] = float.Parse(m_z3.Text);
-                    break;
-                case 10:
-                    GV.in_tr[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_tr[k, 1] = int.Parse(m_nm1.Text);  //трансформаторов
-                    GV.in_tr[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_tr[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_tr[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    GV.z_tr[k, 1] = float.Parse(m_z2.Text);
-                    GV.z_tr[k, 2] = float.Parse(m_z3.Text);
-                    GV.z_tr[k, 3] = float.Parse(m_z4.Text);
-                    GV.z_tr[k, 4] = float.Parse(m_z5.Text);
-                    break;
-                case 11:
-                    GV.in_oui[k, 1] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_oui[k, 2] = int.Parse(m_nm1.Text);  //идеальных операционных усилителей
-                    GV.in_oui[k, 3] = int.Parse(m_np2.Text);
-                    GV.in_oui[k, 4] = int.Parse(m_nm2.Text);
-                    break;
-                case 12:
-                    GV.in_tri[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
-                    GV.in_tri[k, 1] = int.Parse(m_nm1.Text);  //идеальных трансформаторов
-                    GV.in_tri[k, 2] = int.Parse(m_np2.Text);
-                    GV.in_tri[k, 3] = int.Parse(m_nm2.Text);
-                    GV.z_tri[k] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                    break;
-
+                switch (m)
+                {
+                    case 0:
+                        GV.in_r[k, 0] = Int32.Parse(m_np2.Text);
+                        GV.in_r[k, 1] = Int32.Parse(m_nm2.Text);
+                        GV.z_r[k] = Single.Parse(m_z1.Text);
+                        break;
+                    case 1:
+                        GV.in_c[k, 0] = Int32.Parse(m_np2.Text);
+                        GV.in_c[k, 1] = Int32.Parse(m_nm2.Text);
+                        GV.z_c[k] = Single.Parse(m_z1.Text);
+                        break;
+                    case 2:
+                        GV.in_l[k, 0] = Int32.Parse(m_np2.Text);
+                        GV.in_l[k, 1] = Int32.Parse(m_nm2.Text);
+                        GV.z_l[k] = Single.Parse(m_z1.Text);
+                        break;
+                    case 3:
+                        GV.in_ju[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_ju[k, 1] = int.Parse(m_nm1.Text);  //ИТУН
+                        GV.in_ju[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_ju[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_ju[k, 0] = float.Parse(m_z1.Text);  //заполнение массива значений параметров
+                        GV.z_ju[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_ju[k, 2] = float.Parse(m_z3.Text);
+                        break;
+                    case 4:
+                        GV.in_eu[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_eu[k, 1] = int.Parse(m_nm1.Text);  //ИНУН
+                        GV.in_eu[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_eu[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_eu[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        GV.z_eu[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_eu[k, 2] = float.Parse(m_z3.Text);
+                        break;
+                    case 5:
+                        GV.in_ji[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_ji[k, 1] = int.Parse(m_nm1.Text);  //ИТУТ
+                        GV.in_ji[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_ji[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_ji[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        GV.z_ji[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_ji[k, 2] = float.Parse(m_z3.Text);
+                        break;
+                    case 6:
+                        GV.in_ei[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_ei[k, 1] = int.Parse(m_nm1.Text);  //ИНУТ
+                        GV.in_ei[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_ei[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_ei[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        GV.z_ei[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_ei[k, 2] = float.Parse(m_z3.Text);
+                        break;
+                    case 7:
+                        GV.in_tb[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_tb[k, 1] = int.Parse(m_nm1.Text);  //б/п транзисторы
+                        GV.in_tb[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_tb[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_tb[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        GV.z_tb[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_tb[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_tb[k, 3] = float.Parse(m_z4.Text);  //заполнение вектора значения параметра
+                        GV.z_tb[k, 4] = float.Parse(m_z5.Text);
+                        GV.z_tb[k, 5] = float.Parse(m_z6.Text);
+                        break;
+                    case 8:
+                        GV.in_tu[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_tu[k, 1] = int.Parse(m_nm1.Text);  //у/п транзисторы
+                        GV.in_tu[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_tu[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_tu[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        GV.z_tu[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_tu[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_tu[k, 3] = float.Parse(m_z4.Text);
+                        GV.z_tu[k, 4] = float.Parse(m_z5.Text);
+                        break;
+                    case 9:
+                        GV.in_ou[k, 1] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_ou[k, 2] = int.Parse(m_nm1.Text);  //операционных усилителей
+                        GV.in_ou[k, 3] = int.Parse(m_np2.Text);
+                        GV.in_ou[k, 4] = int.Parse(m_nm2.Text);
+                        GV.z_ou[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        GV.z_ou[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_ou[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_ou[k, 3] = float.Parse(m_z3.Text);
+                        break;
+                    case 10:
+                        GV.in_tr[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_tr[k, 1] = int.Parse(m_nm1.Text);  //трансформаторов
+                        GV.in_tr[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_tr[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_tr[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        GV.z_tr[k, 1] = float.Parse(m_z2.Text);
+                        GV.z_tr[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_tr[k, 3] = float.Parse(m_z4.Text);
+                        GV.z_tr[k, 4] = float.Parse(m_z5.Text);
+                        break;
+                    case 11:
+                        GV.in_oui[k, 1] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_oui[k, 2] = int.Parse(m_nm1.Text);  //идеальных операционных усилителей
+                        GV.in_oui[k, 3] = int.Parse(m_np2.Text);
+                        GV.in_oui[k, 4] = int.Parse(m_nm2.Text);
+                        break;
+                    case 12:
+                        GV.in_tri[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
+                        GV.in_tri[k, 1] = int.Parse(m_nm1.Text);  //идеальных трансформаторов
+                        GV.in_tri[k, 2] = int.Parse(m_np2.Text);
+                        GV.in_tri[k, 3] = int.Parse(m_nm2.Text);
+                        GV.z_tri[k] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
+                        break;
+                }
+            }            
+            catch (NullReferenceException)
+            {
+                warning.Visible = true;
+                warning.Text = "Объекта с этим номером не существует, повторите ввод";
+            }
+            catch (IndexOutOfRangeException)
+            {
+                warning.Visible = true;
+                warning.Text = "Проверьте, существует ли объект и повторите ввод";
             }
         }
     }

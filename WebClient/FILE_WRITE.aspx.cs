@@ -17,7 +17,8 @@ namespace WebClient
         protected void WriteFile_Click(object sender, EventArgs e)
         {
             
-            GV.filename = Server.MapPath("~/DATA/") + TextBox1.Text + ".txt";
+            //GV.filename = Server.MapPath("~/DATA/") + TextBox1.Text + ".txt";
+            GV.filename = Server.MapPath("~/Tests/") + TextBox1.Text + ".txt";
             StreamWriter fout = new StreamWriter(GV.filename);//создание экземпляра класса StreamWriter для заданного файла
             String str = "";  //объявление переменной для записи
             str = GV.nv.ToString() + " " + GV.nr.ToString() //запись в str через пробел количества узлов и каждого компонента
