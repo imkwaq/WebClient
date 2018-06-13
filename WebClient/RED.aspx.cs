@@ -1035,36 +1035,36 @@ namespace WebClient
                         GV.in_ju[k, 1] = int.Parse(m_nm1.Text);  //ИТУН
                         GV.in_ju[k, 2] = int.Parse(m_np2.Text);
                         GV.in_ju[k, 3] = int.Parse(m_nm2.Text);
-                        GV.z_ju[k, 0] = float.Parse(m_z1.Text);  //заполнение массива значений параметров
-                        GV.z_ju[k, 1] = float.Parse(m_z2.Text);
-                        GV.z_ju[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_ju[k, 0] = float.Parse(m_z3.Text);  //заполнение массива значений параметров
+                        GV.z_ju[k, 1] = float.Parse(m_z1.Text);
+                        GV.z_ju[k, 2] = float.Parse(m_z2.Text);
                         break;
                     case 4:
                         GV.in_eu[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
                         GV.in_eu[k, 1] = int.Parse(m_nm1.Text);  //ИНУН
                         GV.in_eu[k, 2] = int.Parse(m_np2.Text);
                         GV.in_eu[k, 3] = int.Parse(m_nm2.Text);
-                        GV.z_eu[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                        GV.z_eu[k, 1] = float.Parse(m_z2.Text);
-                        GV.z_eu[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_eu[k, 0] = float.Parse(m_z3.Text);  //заполнение вектора значения параметра
+                        GV.z_eu[k, 1] = float.Parse(m_z1.Text);
+                        GV.z_eu[k, 2] = float.Parse(m_z2.Text);
                         break;
                     case 5:
                         GV.in_ji[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
                         GV.in_ji[k, 1] = int.Parse(m_nm1.Text);  //ИТУТ
                         GV.in_ji[k, 2] = int.Parse(m_np2.Text);
                         GV.in_ji[k, 3] = int.Parse(m_nm2.Text);
-                        GV.z_ji[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                        GV.z_ji[k, 1] = float.Parse(m_z2.Text);
-                        GV.z_ji[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_ji[k, 0] = float.Parse(m_z3.Text);  //заполнение вектора значения параметра
+                        GV.z_ji[k, 1] = float.Parse(m_z1.Text);
+                        GV.z_ji[k, 2] = float.Parse(m_z2.Text);
                         break;
                     case 6:
                         GV.in_ei[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  
                         GV.in_ei[k, 1] = int.Parse(m_nm1.Text);  //ИНУТ
                         GV.in_ei[k, 2] = int.Parse(m_np2.Text);
                         GV.in_ei[k, 3] = int.Parse(m_nm2.Text);
-                        GV.z_ei[k, 0] = float.Parse(m_z1.Text);  //заполнение вектора значения параметра
-                        GV.z_ei[k, 1] = float.Parse(m_z2.Text);
-                        GV.z_ei[k, 2] = float.Parse(m_z3.Text);
+                        GV.z_ei[k, 0] = float.Parse(m_z3.Text);  //заполнение вектора значения параметра
+                        GV.z_ei[k, 1] = float.Parse(m_z1.Text);
+                        GV.z_ei[k, 2] = float.Parse(m_z2.Text);
                         break;
                     case 7:
                         GV.in_tb[k, 0] = int.Parse(m_np1.Text);  //заполнение массива включений  

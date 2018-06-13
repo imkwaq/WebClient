@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="9c95e483-4552-4a9c-93cf-9e00e84f3a06" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="61f2270d-2627-4d33-a313-41b66398ff90" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
   <ClientOptions>
     <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
     <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
@@ -22,11 +22,11 @@
     <MetadataSource Address="https://mns-service.azurewebsites.net/Web_Service_MNS.svc" Protocol="http" SourceId="1" />
   </MetadataSources>
   <Metadata>
-    <MetadataFile FileName="Web_Service_MNS.wsdl" MetadataType="Wsdl" ID="b94f383b-95d7-446c-8da8-cf4b75099052" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?wsdl" />
-    <MetadataFile FileName="Web_Service_MNS.disco" MetadataType="Disco" ID="41debf06-b300-4896-b040-4feedc158454" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?disco" />
-    <MetadataFile FileName="Web_Service_MNS.xsd" MetadataType="Schema" ID="bf381954-bd68-4fda-8eaa-9dfc328bd2f2" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?xsd=xsd1" />
-    <MetadataFile FileName="Web_Service_MNS1.xsd" MetadataType="Schema" ID="8b8d55f1-6923-4988-b998-31132471a2ac" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?xsd=xsd0" />
-    <MetadataFile FileName="Web_Service_MNS2.xsd" MetadataType="Schema" ID="c2fb7fc2-53f3-4234-90d6-d54393768766" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?xsd=xsd2" />
+    <MetadataFile FileName="Web_Service_MNS.wsdl" MetadataType="Wsdl" ID="d56735fa-7038-4d04-955e-132aa080fa9c" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?wsdl" />
+    <MetadataFile FileName="Web_Service_MNS.disco" MetadataType="Disco" ID="3e8b0f55-93d0-4d49-8010-4ad40c6ca563" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?disco" />
+    <MetadataFile FileName="Web_Service_MNS.xsd" MetadataType="Schema" ID="61b094cd-58d9-4411-b866-94fe2bf3d239" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?xsd=xsd1" />
+    <MetadataFile FileName="Web_Service_MNS1.xsd" MetadataType="Schema" ID="8a0e4a7f-2444-4238-8ec7-2d56b1e1e3c0" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?xsd=xsd0" />
+    <MetadataFile FileName="Web_Service_MNS2.xsd" MetadataType="Schema" ID="5f669998-fbd7-4733-a287-c91e0f6e5e46" SourceId="1" SourceUrl="https://mns-service.azurewebsites.net/Web_Service_MNS.svc?xsd=xsd2" />
   </Metadata>
   <Extensions>
     <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />

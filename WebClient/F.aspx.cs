@@ -84,6 +84,7 @@ namespace WebClient
                     //GV.f[1] = (float)Convert.ToDouble(m_f1.Text);
                     GV.f[1] = Single.Parse(m_f1.Text);
                     GV.nf = 1;
+                    Response.Redirect("Default.aspx");
                     break;
                 case 1:
                     warning.Visible = false;

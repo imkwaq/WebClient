@@ -35,7 +35,7 @@ namespace WebClient
         public static float[,] z_tb;    //массив значений б/п транзисторов
         public static float[,] z_tu;    //массив значений у/п транзисторов
         public static float[,] z_ou;    //массив значений реальных опер. усилителей
-        //public static float[,] z_oui;    //массив значений ид. опер. усилителей
+        public static float[] z_oui;    //массив значений ид. опер. усилителей
 
         public static float[] f = new float[MF + 1];
         public static float[] kum = new float[MF + 1];
@@ -53,15 +53,13 @@ namespace WebClient
         public static int[] In_l;
         public static int[] In_ju;
         public static int[] In_eu;
-        //public static int[] In_jufi;
-        //public static int[] In_eufi;
         public static int[] In_ji;
         public static int[] In_ei;
         public static int[] In_oui;
         public static int[] In_tri;
-        //public static int[] In_tr;
-        //public static int[] In_tb;
-        //public static int[] In_tu;
+        public static int[] In_tr;
+        public static int[] In_tb;
+        public static int[] In_tu;
         public static int[] In_ou;
 
         //public static float[] Z_r;
@@ -69,15 +67,13 @@ namespace WebClient
         //public static float[] Z_l;
         public static float[] Z_ju;
         public static float[] Z_eu;
-        //public static float[] Z_jufi;
-        //public static float[] Z_eufi;
         public static float[] Z_ji;
         public static float[] Z_ei;
-        //public static float[] Z_oui;
-        //public static float[] Z_tri;
-        //public static float[] Z_tr;
-        //public static float[] Z_tb;
-        //public static float[] Z_tu;
+        public static float[] Z_oui;
+        public static float[] Z_tri;
+        public static float[] Z_tr;
+        public static float[] Z_tb;
+        public static float[] Z_tu;
         public static float[] Z_ou;
         public static float[] Out = new float[6 * MF + 1];
 

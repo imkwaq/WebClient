@@ -3,9 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <div class="jumbotron">
-        <h2 class="fs-h2-default">MNS Web Service</h2>
+        <h2 class="fs-h2-default">Web-сервис для расчета передаточных функций</h2>
         <p class="lead fs-p-default">
-            Подсказка по работе с сайтом            
+            Подсказка по работе             
         </p>
         <ol class="fs-ol-default">
             <li>Выберите каким способом хотите ввести данные: через файл или клавиатуру.</li>

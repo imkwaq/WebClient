@@ -51,7 +51,7 @@ namespace WebClient
                     + GV.z_ju[i, 2].ToString();
                 fout.WriteLine(str);  //запись в fout
             }
-            for (int i = 1; i <= GV.neu; i++)    //для всех ч/з ИТУТ
+            for (int i = 1; i <= GV.neu; i++)    //для всех ч/з ИНУН
             {
                 str = GV.in_eu[i, 0].ToString() + " " + GV.in_eu[i, 1].ToString() + " "  //запись в str элементов массива включений 
                     + GV.in_eu[i, 2].ToString() + " " + GV.in_eu[i, 3].ToString() + " "
@@ -65,7 +65,7 @@ namespace WebClient
                     + GV.z_ji[i, 0].ToString() + " " + GV.z_ji[i, 1].ToString() + " " + GV.z_ji[i, 2].ToString();   //и вектора значений параметра ч/н ИТУТ
                 fout.WriteLine(str);  //запись в fout
             }
-            for (int i = 1; i <= GV.nei; i++)    //для всех ч/з ИТУТ
+            for (int i = 1; i <= GV.nei; i++)    //для всех ч/з ИНУТ
             {
                 str = GV.in_ei[i, 0].ToString() + " " + GV.in_ei[i, 1].ToString() + " "  //запись в str элементов массива включений 
                     + GV.in_ei[i, 2].ToString() + " " + GV.in_ei[i, 3].ToString() + " "

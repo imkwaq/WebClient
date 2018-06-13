@@ -42,12 +42,27 @@ namespace WebClient.MNS_Service {
                     int nji, 
                     int[] In_ji, 
                     float[] Z_ji, 
+                    int nei, 
+                    int[] In_ei, 
+                    float[] Z_ei, 
                     int nou, 
                     int[] In_ou, 
                     float[] Z_ou, 
                     int ntri, 
                     int[] In_tri, 
-                    float[] z_tri);
+                    float[] Z_tri, 
+                    int ntb, 
+                    int[] In_tb, 
+                    float[] Z_tb, 
+                    int ntu, 
+                    int[] In_tu, 
+                    float[] Z_tu, 
+                    int ntr, 
+                    int[] In_tr, 
+                    float[] Z_tr, 
+                    int noui, 
+                    int[] In_oui, 
+                    float[] Z_oui);
         
         [System.ServiceModel.OperationContractAttribute(Action="http://tempuri.org/IWeb_Service_MNS/OnCalc", ReplyAction="http://tempuri.org/IWeb_Service_MNS/OnCalcResponse")]
         System.Threading.Tasks.Task<float[]> OnCalcAsync(
@@ -76,12 +91,27 @@ namespace WebClient.MNS_Service {
                     int nji, 
                     int[] In_ji, 
                     float[] Z_ji, 
+                    int nei, 
+                    int[] In_ei, 
+                    float[] Z_ei, 
                     int nou, 
                     int[] In_ou, 
                     float[] Z_ou, 
                     int ntri, 
                     int[] In_tri, 
-                    float[] z_tri);
+                    float[] Z_tri, 
+                    int ntb, 
+                    int[] In_tb, 
+                    float[] Z_tb, 
+                    int ntu, 
+                    int[] In_tu, 
+                    float[] Z_tu, 
+                    int ntr, 
+                    int[] In_tr, 
+                    float[] Z_tr, 
+                    int noui, 
+                    int[] In_oui, 
+                    float[] Z_oui);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -137,13 +167,28 @@ namespace WebClient.MNS_Service {
                     int nji, 
                     int[] In_ji, 
                     float[] Z_ji, 
+                    int nei, 
+                    int[] In_ei, 
+                    float[] Z_ei, 
                     int nou, 
                     int[] In_ou, 
                     float[] Z_ou, 
                     int ntri, 
                     int[] In_tri, 
-                    float[] z_tri) {
-            return base.Channel.OnCalc(In_r, z_r, nr, In_c, z_c, nc, In_l, z_l, nl, nv, lp, lm, kp, km, f, nf, nju, In_ju, Z_ju, neu, In_eu, Z_eu, nji, In_ji, Z_ji, nou, In_ou, Z_ou, ntri, In_tri, z_tri);
+                    float[] Z_tri, 
+                    int ntb, 
+                    int[] In_tb, 
+                    float[] Z_tb, 
+                    int ntu, 
+                    int[] In_tu, 
+                    float[] Z_tu, 
+                    int ntr, 
+                    int[] In_tr, 
+                    float[] Z_tr, 
+                    int noui, 
+                    int[] In_oui, 
+                    float[] Z_oui) {
+            return base.Channel.OnCalc(In_r, z_r, nr, In_c, z_c, nc, In_l, z_l, nl, nv, lp, lm, kp, km, f, nf, nju, In_ju, Z_ju, neu, In_eu, Z_eu, nji, In_ji, Z_ji, nei, In_ei, Z_ei, nou, In_ou, Z_ou, ntri, In_tri, Z_tri, ntb, In_tb, Z_tb, ntu, In_tu, Z_tu, ntr, In_tr, Z_tr, noui, In_oui, Z_oui);
         }
         
         public System.Threading.Tasks.Task<float[]> OnCalcAsync(
@@ -172,13 +217,28 @@ namespace WebClient.MNS_Service {
                     int nji, 
                     int[] In_ji, 
                     float[] Z_ji, 
+                    int nei, 
+                    int[] In_ei, 
+                    float[] Z_ei, 
                     int nou, 
                     int[] In_ou, 
                     float[] Z_ou, 
                     int ntri, 
                     int[] In_tri, 
-                    float[] z_tri) {
-            return base.Channel.OnCalcAsync(In_r, z_r, nr, In_c, z_c, nc, In_l, z_l, nl, nv, lp, lm, kp, km, f, nf, nju, In_ju, Z_ju, neu, In_eu, Z_eu, nji, In_ji, Z_ji, nou, In_ou, Z_ou, ntri, In_tri, z_tri);
+                    float[] Z_tri, 
+                    int ntb, 
+                    int[] In_tb, 
+                    float[] Z_tb, 
+                    int ntu, 
+                    int[] In_tu, 
+                    float[] Z_tu, 
+                    int ntr, 
+                    int[] In_tr, 
+                    float[] Z_tr, 
+                    int noui, 
+                    int[] In_oui, 
+                    float[] Z_oui) {
+            return base.Channel.OnCalcAsync(In_r, z_r, nr, In_c, z_c, nc, In_l, z_l, nl, nv, lp, lm, kp, km, f, nf, nju, In_ju, Z_ju, neu, In_eu, Z_eu, nji, In_ji, Z_ji, nei, In_ei, Z_ei, nou, In_ou, Z_ou, ntri, In_tri, Z_tri, ntb, In_tb, Z_tb, ntu, In_tu, Z_tu, ntr, In_tr, Z_tr, noui, In_oui, Z_oui);
         }
     }
 }

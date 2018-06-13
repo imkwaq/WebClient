@@ -21,6 +21,7 @@ namespace WebClient
                 m_ztuczs.Text = "0";
                 m_ztucsi.Text = "0";
                 m_ztus.Text = "0";
+                warning.Visible = false;
             }
         }
 

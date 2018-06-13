@@ -3,8 +3,9 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <br />
     <div class="container">
-        <div class="row">
+        <div class="row">            
             <div class="container col-md-5 col-md-offset-3">
+                <asp:Label ID="warning" runat="server" CssClass="alert alert-warning component-label help-block"></asp:Label>
                 <div class="alert alert-info">
                     <p>Все файлы хранятся на сервере, запомните имя файла для повторной работы с ним</p>
                 </div>

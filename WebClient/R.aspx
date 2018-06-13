@@ -41,7 +41,7 @@
                         <div class="form-group flex-content">
                             <%--<div class="container flex-content">--%>
                             <div class="row col-md-12">
-                                <label class="col-md-8 col-lg-6 component-label">Сопротивление (Ом)</label>
+                                <label class="col-md-8 col-lg-6 component-label">Сопротивление (кОм)</label>
                                 <asp:TextBox ID="m_zr" runat="server" AutoCompleteType="Disabled" CssClass="form-control col-md-4 col-lg-6"></asp:TextBox>
                                 <%--  </div>--%>
                             </div>
